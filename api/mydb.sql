@@ -28,10 +28,14 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `employees` (
   `_id` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `position` varchar(50) NOT NULL,
-  `department` varchar(50) NOT NULL,
-  `salary` varchar(10) NOT NULL
+  `email` varchar(50) NOT NULL,
+  `firstName` varchar(50) NOT NULL,
+  `lastName` varchar(50) NOT NULL,
+  `password` varchar(10) NOT NULL,
+  `role` varchar(50) NOT NULL,
+  `color` varchar(50) NOT NULL,  
+  `status` varchar(50) NOT NULL,
+  `country` varchar(50) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
