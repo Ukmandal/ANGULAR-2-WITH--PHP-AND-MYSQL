@@ -1,4 +1,3 @@
-# Angular Developer Umesh Mandal
 # ANGULAR-2-WITH--PHP-AND-MYSQL 
 
 
