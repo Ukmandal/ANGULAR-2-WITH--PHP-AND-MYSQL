@@ -1,0 +1,82 @@
+<div class="panel panel-default" *ngIf=employee>
+  <div class="panel-heading">
+    <h4 class="text-center">
+      Employee show Form :
+      <br> You can show an employee details information into this employment management system.
+    </h4>
+  </div>
+  <div class="panel-body">
+    <form class="form-horizontal">
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="emp_name" class="col-sm-2 control-label">First Name : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.firstName}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="emp_name" class="col-sm-2 control-label">Last Name : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.lastName}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="emp_name" class="col-sm-2 control-label">Email : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.email}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="emp_name" class="col-sm-2 control-label">Password : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.password}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="emp_name" class="col-sm-2 control-label">Role : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.role}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="position" class="col-sm-2 control-label">Color : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.color}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="department" class="col-sm-2 control-label">Status : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.status}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="salary" class="col-sm-2 control-label">Country : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee.country}}</p>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-2"></div>
+        <label for="id" class="col-sm-2 control-label">Employee's ID : </label>
+        <div class="col-sm-6">
+          <p class="form-control">{{employee._id}}</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-2"></div>
+        <div style="text-align: right;margin-right: 190px;">
+          <!--<button type="submit" class="btn btn-info" (click)="goBack()">Cancel</button>-->
+          <a class="btn btn-info" (click)="goBack()">Cancel</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
